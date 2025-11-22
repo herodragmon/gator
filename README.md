@@ -1,5 +1,5 @@
 # Gator
-gator is a command-line and API tool for managing custom RSS/Atom feed subscriptions and aggregating their content, with multi-user support and PostgreSQL as its backend database. This project is intended to help users register, log in, manage their feeds, and browse aggregated content efficiently.
+gator is a simple command-line and API tool for managing custom RSS/Atom feed subscriptions and aggregating their content, with multi-user support and PostgreSQL as its backend database. This project is intended to help users register, log in, manage their feeds, and browse aggregated content efficiently.
 
 ---
 
