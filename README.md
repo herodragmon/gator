@@ -39,3 +39,16 @@ go install github.com/herodragmon/gator
 gator <command> [arguments]
 
 ```
+Then make the gator dir in psql:
+```
+psql -c "CREATE DATABASE gator;"
+
+```
+---
+
+## Config
+To use gator, you must first create a .gatorconfig.json within your home directory with the following minimal config (url needs tweaking to work with your configuration of postgres)
+```
+{
+    "db_url": "postgres://<user>:<password>@localhost:5432/gator?sslmode=disable"
+}
