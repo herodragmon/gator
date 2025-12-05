@@ -11,7 +11,7 @@ After installing and setting up PostgreSQL, you can run gotorr with the followin
 | :--- | :--- |
 | `login` | Authenticate an existing user. |
 | `register` | Create a new user account. |
-| `reset` | Reset a user's password. |
+| `reset` | Resets the database |
 | `users` | List all registered users. |
 | `agg` | Aggregate and display all feed items for the logged-in user (this takes an argument like time between string, like 1s 1hr etc stop it using ctrl+c). |
 | `addfeed` | Add a new feed URL to your account (must be logged in). |
